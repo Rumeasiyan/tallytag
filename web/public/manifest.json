@@ -1,0 +1,9 @@
+{
+  "name": "TALLYTAG",
+  "short_name": "TALLYTAG",
+  "start_url": "/scan",
+  "display": "standalone",
+  "background_color": "#f1f4f3",
+  "theme_color": "#0a6a66",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

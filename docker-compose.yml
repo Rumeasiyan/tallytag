@@ -1,0 +1,14 @@
+# PostgreSQL for local development.  Start it with:  docker compose up -d
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: tallytag
+      POSTGRES_PASSWORD: tallytag
+      POSTGRES_DB: tallytag
+    ports:
+      - "5432:5432"
+    volumes:
+      - tallytag-db:/var/lib/postgresql/data
+volumes:
+  tallytag-db:

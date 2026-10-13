@@ -1,0 +1,51 @@
+tag_number,description,category,building,floor,room
+TEST-0001,TEST Office Chair,Furniture,TEST Building A,1,Room 1
+TEST-0002,TEST Desk,Furniture,TEST Building A,1,Room 1
+TEST-0003,TEST Laptop,IT Equipment,TEST Building A,1,Room 1
+TEST-0004,TEST Printer,IT Equipment,TEST Building A,1,Room 1
+TEST-0005,TEST Cabinet,Furniture,TEST Building A,1,Room 1
+TEST-0006,TEST Fan,Electrical,TEST Building A,1,Room 1
+TEST-0007,TEST Projector,IT Equipment,TEST Building A,1,Room 1
+TEST-0008,TEST Whiteboard,Furniture,TEST Building A,1,Room 1
+TEST-0009,TEST Telephone,Electrical,TEST Building A,1,Room 1
+TEST-0010,TEST Monitor,IT Equipment,TEST Building A,1,Room 1
+TEST-0011,TEST Office Chair,Furniture,TEST Building A,1,Room 2
+TEST-0012,TEST Desk,Furniture,TEST Building A,1,Room 2
+TEST-0013,TEST Laptop,IT Equipment,TEST Building A,1,Room 2
+TEST-0014,TEST Printer,IT Equipment,TEST Building A,1,Room 2
+TEST-0015,TEST Cabinet,Furniture,TEST Building A,1,Room 2
+TEST-0016,TEST Fan,Electrical,TEST Building A,1,Room 2
+TEST-0017,TEST Projector,IT Equipment,TEST Building A,1,Room 2
+TEST-0018,TEST Whiteboard,Furniture,TEST Building A,1,Room 2
+TEST-0019,TEST Telephone,Electrical,TEST Building A,1,Room 2
+TEST-0020,TEST Monitor,IT Equipment,TEST Building A,1,Room 2
+TEST-0021,TEST Office Chair,Furniture,TEST Building A,1,Room 3
+TEST-0022,TEST Desk,Furniture,TEST Building A,1,Room 3
+TEST-0023,TEST Laptop,IT Equipment,TEST Building A,1,Room 3
+TEST-0024,TEST Printer,IT Equipment,TEST Building A,1,Room 3
+TEST-0025,TEST Cabinet,Furniture,TEST Building A,1,Room 3
+TEST-0026,TEST Fan,Electrical,TEST Building A,2,Room 3
+TEST-0027,TEST Projector,IT Equipment,TEST Building A,2,Room 3
+TEST-0028,TEST Whiteboard,Furniture,TEST Building A,2,Room 3
+TEST-0029,TEST Telephone,Electrical,TEST Building A,2,Room 3
+TEST-0030,TEST Monitor,IT Equipment,TEST Building A,2,Room 3
+TEST-0031,TEST Office Chair,Furniture,TEST Building A,2,Room 4
+TEST-0032,TEST Desk,Furniture,TEST Building A,2,Room 4
+TEST-0033,TEST Laptop,IT Equipment,TEST Building A,2,Room 4
+TEST-0034,TEST Printer,IT Equipment,TEST Building A,2,Room 4
+TEST-0035,TEST Cabinet,Furniture,TEST Building A,2,Room 4
+TEST-0036,TEST Fan,Electrical,TEST Building A,2,Room 4
+TEST-0037,TEST Projector,IT Equipment,TEST Building A,2,Room 4
+TEST-0038,TEST Whiteboard,Furniture,TEST Building A,2,Room 4
+TEST-0039,TEST Telephone,Electrical,TEST Building A,2,Room 4
+TEST-0040,TEST Monitor,IT Equipment,TEST Building A,2,Room 4
+TEST-0041,TEST Office Chair,Furniture,TEST Building A,2,Room 5
+TEST-0042,TEST Desk,Furniture,TEST Building A,2,Room 5
+TEST-0043,TEST Laptop,IT Equipment,TEST Building A,2,Room 5
+TEST-0044,TEST Printer,IT Equipment,TEST Building A,2,Room 5
+TEST-0045,TEST Cabinet,Furniture,TEST Building A,2,Room 5
+TEST-0046,TEST Fan,Electrical,TEST Building A,2,Room 5
+TEST-0047,TEST Projector,IT Equipment,TEST Building A,2,Room 5
+TEST-0048,TEST Whiteboard,Furniture,TEST Building A,2,Room 5
+TEST-0049,TEST Telephone,Electrical,TEST Building A,2,Room 5
+TEST-0050,TEST Monitor,IT Equipment,TEST Building A,2,Room 5

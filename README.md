@@ -2,7 +2,7 @@
 
 **TALLYTAG is an open-source tool for counting and checking an office's assets with phones: scan each asset's tag, record its condition, and see the full list update live, even without internet.**
 
-> **Status:** starting. Built in the open by the Eastern Province IT Volunteer Programme, Sri Lanka.
+> **Status:** first working version (milestones 1 to 4 built, see below). Built in the open by the Eastern Province IT Volunteer Programme, Sri Lanka.
 
 ---
 
@@ -81,6 +81,36 @@ TALLYTAG is a **reusable tool**: any office or organisation that counts what it 
 | 2. Record | Condition, notes and photo recorded; the live list updating |
 | 3. Offline | A phone with no signal keeps working and syncs later without losing anything |
 | 4. Report | The survey report, in all three languages; documentation |
+
+## Run it on your computer
+
+You need Go 1.22+, Node.js 20+ and PostgreSQL (Docker is the easy way).
+
+```bash
+# 1. Database
+docker compose up -d
+
+# 2. Server (terminal 1) - creates its tables on first start
+cd server
+go run .                      # listens on :8080
+
+# 3. Web app (terminal 2)
+cd web
+npm install
+npm run dev:https             # phones need HTTPS to use the camera
+```
+
+1. On the computer open the address Next.js prints under **Network** (for example `https://192.168.1.20:3000`), not `localhost`, so phones can reach it.
+2. **Start a survey**, then **Load asset list** and choose `test-data/assets.csv` (50 invented `TEST-` assets).
+3. Scan the QR code with a phone on the same Wi-Fi. The first time, the phone warns about the development certificate; continue anyway.
+4. Scan or type `TEST-0001`, pick a condition, save. The row changes on the computer at once.
+5. Switch the phone to airplane mode, record more, switch it back: the phone sends everything by itself.
+6. **Open survey report**, then **Print or save as PDF**.
+
+`npm run dev:https` creates a local certificate the first time (it needs internet once). Without HTTPS the scan screen still works by typing the tag number.
+
+Tests: `cd server && go test ./...` and `cd web && npm run typecheck`.
+Settings: `server/.env.example`, `web/.env.example`. The API is described in [docs/API.md](docs/API.md).
 
 ## Contributing
 
